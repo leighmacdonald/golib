@@ -1,4 +1,4 @@
-package util
+package golib
 
 import (
 	"github.com/stretchr/testify/assert"
