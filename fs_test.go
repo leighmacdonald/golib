@@ -6,6 +6,6 @@ import (
 )
 
 func TestExists(t *testing.T) {
-	assert.True(t, PathExists("/etc/hosts"))
-	assert.False(t, PathExists("/etc/hostsasdf"))
+	assert.True(t, Exists("/etc/hosts"))
+	assert.False(t, Exists("/etc/hostsasdf"))
 }
